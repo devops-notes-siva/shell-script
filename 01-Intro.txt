@@ -9,4 +9,4 @@ while pushing repo use peronsla access token
 our git info in local system -> user -> .git config
 
 $ git add . ;git commit -m "some msg" ;git push -u origin main
-  tok --  ##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##
+  tok --  ##............,,,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##
