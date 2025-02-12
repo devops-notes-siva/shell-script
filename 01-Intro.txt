@@ -1,0 +1,11 @@
+Devops responsibility to reduce manual tasks & make automation
+achievements ---> 1) fast  release 2) reduce the defects
+
+
+if unable to push the local commits to central git hub
+  -> windows -> credential manager -> delete github account
+while pushing repo use peronsla access token 
+    -> github -> settings -> developer actions -> personal access token
+our git info in local system -> user -> .git config
+
+$ git add . ;git commit -m "some msg" ;git push -u origin main
