@@ -13,4 +13,3 @@ $ git add . ;git commit -m "some msg" ;git push -u origin main
 
 in shell script variables and values should not have space
 
-((  20 mnst  ))
