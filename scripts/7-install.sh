@@ -2,7 +2,7 @@
 echo "need to install some packages"
 echo "checking user is sudo previliged or not"
 
-ID = $(id -u)
+ID=$(id -u)
 
 if [ $ID -ne 0]
 then
