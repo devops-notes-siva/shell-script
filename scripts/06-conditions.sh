@@ -3,6 +3,7 @@ NUMBER=$1
 echo "given number is: $NUMBER"
 
 if [ $NUMBER -gt 27 ]
+then
     echo "given number is greter than 27"
 else 
 
