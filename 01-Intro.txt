@@ -9,3 +9,77 @@ while pushing repo use peronsla access token
 our git info in local system -> user -> .git config
 
 $ git add . ;git commit -m "some msg" ;git push -u origin main
+
+Shell Script
+---------------
+1st line -->#!/bin/bash
+
+shebang is the location interpreter, commands written inside shell script is interpreted and executed by this shebang
+
+zshell
+kshell
+cshell
+fish
+
+bash shell == shell
+
+how to execute shell script
+---------------------
+sh <script>
+bash <script>
+./<script-name> --> this should have execute permission
+X --> running the command/script
+
+variables:
+-------------
+1. repeated words
+2. if you want to change, you have to change it every where
+3. while changing accidently you may change actual code
+
+arguments/parameters
+--------------------
+sh variables.sh Raheem Robert
+
+Raheem = 1st variable
+Robert = 2nd variable
+.
+.John = nth variable
+
+DATA TYPES:
+------------
+In shell script data types not importanat and it can automatically converts
+
+
+integer
+float
+decimal
+string
+boolean --> true/false ... 1=true, 0=false
+array
+arraylist
+set, map
+
+array --> list of values
+if you define a variable as array, it can hold list of values...
+
+List always starts with 0
+
+$VARIBALE
+${VARIBALE}
+
++, -, *, / , %
+
+if id is 0 then super user, if not 0 then normal user
+
+disadvantage of shell script
+------------------------
+shell script will not stop even it faces the error, it is user responsibility to check the previous command is success/not
+
+exit status
+------------
+what is exit status?
+
+$? --> to check the exit status of previous command
+0 --> success
+other than 0 --> failure
+1-127
