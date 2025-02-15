@@ -16,7 +16,7 @@ then
     exit 1
 else
     echo "$2 SUCCESS"
-if
+fi
 }
 
 dnf install mysql -y
