@@ -24,7 +24,7 @@ else
 fi
 }
 
-dnf remove mysqll -y &>>$LOG
+dnf install mysqll -y &>>$LOG
 CHECK $? "mysqll status - "
 
 dnf install git -y &>>$LOG
