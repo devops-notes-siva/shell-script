@@ -9,7 +9,7 @@ N="\e[0m"
 
 NAME=$(echo $0 | cut -d"." -f1)
 TIME=$(date +%F-%H-%M)
-LOGFILE=/tmp/$NAME-$DATE.log
+LOGFILE=/tmp/$NAME-$TIME.log
 
 ID=$(id -u)
 
