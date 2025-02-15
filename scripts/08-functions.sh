@@ -8,6 +8,11 @@ then
  exit 1
 fi
 
+
+FILE_NAME=echo "$0 | cut -d"." -f1"
+TIME_STAMP=date +%F-%H-%M-%S
+LOG=/tmp/$FILE_NAME-$TIME_STAMP.log
+
 CHECK(){
 
 if [ $1 -ne 0 ]
@@ -19,8 +24,8 @@ else
 fi
 }
 
-dnf install mysql -y
+dnf remove mysql -y &>>$LOG
 CHECK $? "mysqll status - "
 
-dnf install git -y
+dnf install git -y &>>$LOG
 CHECK $? "GIT status - "
