@@ -22,10 +22,14 @@ fi
 VALIDATE() {
     if [ $1 -ne 0 ]
     then
+        echo "#############################"
         echo -e "$2 $R FAILED $N"
+        echo "#############################"
         exit 1
     else
+        echo "#############################"
         echo -e "$2 $G SUCCESS $N"
+        echo "#############################"
     fi
 
 }
@@ -37,9 +41,13 @@ do
 
     if [ $? -eq 0 ]
     then
+    echo "#############################"
      echo -e "$i Alreday installed, $R no action required $N"
+     echo "#############################"
     else
+        echo "#############################"
         echo -e "$i Not  installed, $Y Installing now $N"
+        echo "#############################"
         dnf install $i -y &>> $LOGFILE
         VALIDATE $? "$i status-"
     fi
