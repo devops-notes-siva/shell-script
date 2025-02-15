@@ -9,7 +9,7 @@ then
 fi
 
 
-FILE_NAME=$(echo "$0 | cut -d"." -f1")
+FILE_NAME=$(echo $0 | cut -d"." -f1)
 TIME_STAMP=$(date +%F-%H-%M-%S)
 LOG=/tmp/$FILE_NAME-$TIME_STAMP.log
 
