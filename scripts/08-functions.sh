@@ -8,7 +8,7 @@ then
  exit 1
 fi
 
-CHECK() {
+CHECK(){
 
 if [ $1 -ne 0 ]
 then
