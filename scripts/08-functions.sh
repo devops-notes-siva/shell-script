@@ -9,8 +9,8 @@ then
 fi
 
 
-FILE_NAME=echo "$0 | cut -d"." -f1"
-TIME_STAMP=date +%F-%H-%M-%S
+FILE_NAME=$(echo "$0 | cut -d"." -f1")
+TIME_STAMP=$(date +%F-%H-%M-%S)
 LOG=/tmp/$FILE_NAME-$TIME_STAMP.log
 
 CHECK(){
@@ -24,7 +24,7 @@ else
 fi
 }
 
-dnf remove mysql -y &>>$LOG
+dnf remove mysqll -y &>>$LOG
 CHECK $? "mysqll status - "
 
 dnf install git -y &>>$LOG
