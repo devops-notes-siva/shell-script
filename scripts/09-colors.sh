@@ -8,7 +8,7 @@ N="\e[0m"
 
 ID=$(id -u)
 
-if [ $ID -ne 0]
+if [ $ID -ne 0 ]
 then
     echo "Please use sudo access"
 fi
