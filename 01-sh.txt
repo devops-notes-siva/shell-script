@@ -83,3 +83,9 @@ $? --> to check the exit status of previous command
 0 --> success
 other than 0 --> failure
 1-127
+
+
+
+systemctl is-active --quiet nginx
+  If nginx is running, the exit status is 0, and there's no output.
+  If nginx is not running, the exit status is 3, and no output is displayed.

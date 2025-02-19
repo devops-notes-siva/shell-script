@@ -41,3 +41,9 @@ loops
 for(int i=0; i<20; i++){
 	print $i;
 }
+
+
+
+it is a nature of program irrespective of how many times you run it should not change result...
+
+Shell script is not idempotent in nature, so we need to take care
