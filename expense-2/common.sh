@@ -21,17 +21,17 @@ N="\e[0m"
 
 
 
-# check_user()
-# {
+check_user()
+{
     
-#     if [ $user_id -ne 0 ]
-#     then 
-#         echo "please execute with super user"
-#         exit 1
-#     else
-#         echo "you are alreday superuser"
-#     fi
-# }
+    if [ $user_id -ne 0 ]
+    then 
+        echo "please execute with super user"
+        exit 1
+    else
+        echo "you are alreday superuser"
+    fi
+}
 
 # validate()
 # {
