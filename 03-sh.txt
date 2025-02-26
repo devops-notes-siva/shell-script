@@ -20,3 +20,9 @@ PID of 2 scripts are same...
 
 1. changes happened in other script will be reflected in current script
 2. PID of2 scripts are same.
+
+
+whenever we are trying to pull git repo, if unable to pull cause error then use below commands:
+ $ git pull
+ $ git status
+ $ git diff <file_name>
