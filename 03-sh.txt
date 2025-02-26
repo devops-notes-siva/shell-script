@@ -26,3 +26,5 @@ whenever we are trying to pull git repo, if unable to pull cause error then use 
  $ git pull
  $ git status
  $ git diff <file_name>
+
+ In shell script, we can use "set -e" command to act like idempotent, but it is not user friendly and can not use at all sitautions.

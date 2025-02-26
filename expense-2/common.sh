@@ -4,8 +4,8 @@ set -e
 
 catch_error()
 {
-    echo "failed at line no $1 - "
-    echo "command failed is $2 - "
+    echo "failed at line no  - $1"
+    echo "command failed is  - $2"
 }
 
 trap 'catch_error ${LINENO} "$BASH_COMMAND"' ERR
