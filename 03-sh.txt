@@ -27,4 +27,8 @@ whenever we are trying to pull git repo, if unable to pull cause error then use 
  $ git status
  $ git diff <file_name>
 
- In shell script, we can use "set -e" command to act like idempotent, but it is not user friendly and can not use at all sitautions.
+ In shell script, we can use "set -e" command to act like idempotent, but it is not user friendly and can not use at all sitautions to hadle errors.
+
+ To create files with some old dates:
+ --------------------------
+    $ touch -d 20240819
