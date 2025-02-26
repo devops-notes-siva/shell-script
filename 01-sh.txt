@@ -1,5 +1,9 @@
 RHEL-9-DevOps-Practice - DevOps321
 
+When we say a script is idempotent or non-idempotent, we're describing how the script behaves when run multiple times. Idempotence refers to the property that executing a script multiple times will have the same effect as executing it once. Non-idempotent scripts, on the other hand, may produce different results with each execution or cause unintended side effects.
+
+By nature, shell scripts are non-idempotent.
+
 Devops responsibility to reduce manual tasks & make automation
 achievements ---> 1) fast  release 2) reduce the defects
 
