@@ -8,7 +8,7 @@ echo  "process id of current scrip is : $$"
 
 echo "##########################################"
 #sh 12-otherscript.sh
-source 12-otherscript.sh
+source sh 12-otherscript.sh
 
 echo "##########################################"
 echo "This from current script"
