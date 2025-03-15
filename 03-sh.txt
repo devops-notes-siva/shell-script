@@ -38,3 +38,13 @@ crontab schedule:
 ----------------
 commands:
    crontab -e, crontab -l
+
+disadvantages of shell-script:
+-----------------------------------
+disadvantages
+---------------------
+1. no idempotency
+2. hard to understand the script
+3. single script may not work for all distros.
+4. no error handling
+5. shell scripting is tough if you have more servers.
