@@ -34,4 +34,7 @@ whenever we are trying to pull git repo, if unable to pull cause error then use 
     $ touch -d 20240819
 
 
-    
+crontab schedule:
+----------------
+commands:
+   crontab -e, crontab -l
